@@ -2,4 +2,4 @@
 
 ## Mini Store
 
-![Mini Store](./public/assets/image/allProducts.png)
+![Mini Store](/mini-store/public/assets/image/allProducts.png)

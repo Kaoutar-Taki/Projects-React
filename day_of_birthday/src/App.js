@@ -20,24 +20,20 @@ function App() {
     setPeople(sortedPeople);
   };
   return (
-    <div className="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8">
-      <div className="flex items-center justify-between mb-4">
-        <h5 className="text-xl font-bold leading-none text-gray-900">Birthdays Today</h5>
-        <div className="flex space-x-4">
-          <button onClick={sortAlphabetically} className="text-sm font-medium text-blue-600 hover:underline bg-blue-400 px-4 py-2 rounded-lg">
-            Sort Alphabetically
-          </button>
-          <button onClick={sortByAge} className="text-sm font-medium text-blue-600 hover:underline">
-            Sort by Age
-          </button>
-          <button onClick={() => setPeople([])} className="text-sm font-medium text-blue-600 hover:underline">
-            Clear all
-          </button>
-        </div>
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">Birthdays Today</h1>
+      <div className="flex space-x-4 mb-4">
+        <button onClick={sortAlphabetically} className="text-sm font-medium text-blue-600 hover:underline bg-blue-400 px-4 py-2 rounded-lg">
+          Sort Alphabetically
+        </button>
+        <button onClick={sortByAge} className="text-sm font-medium text-blue-600 hover:underline bg-blue-400 px-4 py-2 rounded-lg">
+          Sort by Age
+        </button>
+        <button onClick={() => setPeople([])} className="text-sm font-medium text-red-600 hover:underline bg-red-400 px-4 py-2 rounded-lg">
+          Clear all
+        </button>
       </div>
-      <div className="flow-root">
-        <ListeUsers people={people} deleteUser={deleteUser} />
-      </div>
+      <ListeUsers people={people} deleteUser={deleteUser} />
     </div>
   );
 }

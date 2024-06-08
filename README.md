@@ -8,4 +8,4 @@
 
 ## Day Of Birthday
 
-![Day Of Birthday](/day-of-birthday/public/assets/image/birthday.png)
+![Day Of Birthday](/day_of_birthday/public/assets/image/birthday.png)

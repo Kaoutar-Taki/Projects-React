@@ -89,5 +89,11 @@ const users = [
         age: 37,
         image: 'https://randomuser.me/api/portraits/men/88.jpg',
     },
+    {
+        id: 16,
+        name: 'Oussama Tailba',
+        age: 26,
+        image: 'https://randomuser.me/api/portraits/men/90.jpg',
+    },
 ];
 export default users;

@@ -4,10 +4,15 @@ import PropTypes from "prop-types";
 const Player = ({ initialName, symbol }) => {
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
+
   const handelEditClick = () => {
     setIsEditing((prev) => {
       return !prev;
     });
+  };
+
+  const handleChange = (event) => {
+    setPlayerName(event.target.value);
   };
 
   return (
@@ -18,7 +23,7 @@ const Player = ({ initialName, symbol }) => {
             type="text"
             required
             value={playerName}
-            onChange={(e) => setPlayerName(e.target.value)}
+            onChange={handleChange}
           />
         ) : (
           <span className="player-name">{playerName}</span>
@@ -32,8 +37,8 @@ const Player = ({ initialName, symbol }) => {
 };
 
 Player.propTypes = {
-  name: PropTypes.string.isRequired,
   symbol: PropTypes.string.isRequired,
+  initialName: PropTypes.string.isRequired,
 };
 
 export default Player;

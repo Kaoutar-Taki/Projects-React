@@ -1,5 +1,11 @@
 # Voila les Projects:
 
+## Investment Calculator
+
+![Investment Calculator](/investment_calculator/public/assets/image/investmentcalculator.png)
+
+<hr>
+
 ## Tic Tac Toe
 
 ![Tic Tac Toe](/tic_tac_toe/public/assets/image/tictactoe.png)
@@ -15,3 +21,4 @@
 ## Mini Store
 
 ![Mini Store](/mini-store/public/assets/image/allProducts.png)
+

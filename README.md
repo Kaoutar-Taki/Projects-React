@@ -1,8 +1,8 @@
 # Voila les Projects:
 
-## Mini Store
+## Tic Tac Toe
 
-![Mini Store](/mini-store/public/assets/image/allProducts.png)
+![Tic Tac Toe](/tic_tac_toe/public/assets/image/tictactoe.png)
 
 <hr>
 
@@ -10,6 +10,8 @@
 
 ![Day Of Birthday](/day_of_birthday/public/assets/image/birthday.png)
 
-## Tic Tac Toe
+<hr>
 
-![Tic Tac Toe](/tic_tac_toe/public/assets/image/tictactoe.png)
+## Mini Store
+
+![Mini Store](/mini-store/public/assets/image/allProducts.png)

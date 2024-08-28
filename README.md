@@ -20,5 +20,5 @@
 
 ## Mini Store
 
-![Mini Store](/mini-store/public/assets/image/allProducts.png)
+![Mini Store](/mini_store/public/assets/image/allProducts.png)
 

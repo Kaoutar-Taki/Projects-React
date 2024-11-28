@@ -1,5 +1,11 @@
 # Voila les Projects:
 
+## Timer Challenge
+
+![Timer Challenge](/timer_challenge/public/assets/image/timerchallege.png)
+
+<hr>
+
 ## Investment Calculator
 
 ![Investment Calculator](/investment_calculator/public/assets/image/investmentcalculator.png)

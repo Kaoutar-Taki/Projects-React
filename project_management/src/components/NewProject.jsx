@@ -41,7 +41,7 @@ export default function NewProject({ onAdd, onCancel }) {
       </Modal>
       <div className="w-[35rem] mt-16">
         <menu className="flex items-center justify-end gap-4 my-4">
-          <li>
+          <li className="flex gap-4">
             <button
               className="text-stone-800 hover:text-stone-950"
               onClick={onCancel}

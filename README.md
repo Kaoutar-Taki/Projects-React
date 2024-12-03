@@ -1,5 +1,11 @@
 # Voila les Projects:
 
+## Project Management
+
+![Project Management](/project_management/public/assets/image/projectmanagement.png)
+
+<hr>
+
 ## Timer Challenge
 
 ![Timer Challenge](/timer_challenge/public/assets/image/timerchallege.png)
